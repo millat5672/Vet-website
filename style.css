@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+}
+	
+	
+	
+
+/* Logo area */
+.logo-area {
+    display: flex;
+    
+     align-items: center;
+    
+}
+
+/* logo image */
+.logo-area img {
+  display: block;
+  margin: auto;
+    width: 50%;
+    height: auto;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+
+
+/* Service Menu */
+.service-menu{
+    text-align: center;
+    margin: 20px 0;
+    color: red;
+    font-size: 15px;
+}
+.service-menu ul{
+    list-style: none;
+}
+.service-menu li{
+    padding: 5px 0;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 30px 15px;
+}
+.hero h1{
+    color: green;
+    font-size: 32px;
+}
+.hero h3{
+    color: blue;
+    line-height: 1.4;
+}
+
+/* Doctor Section */
+.doctor-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.mahabub-area,
+.tuhin-area{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.dr-area img,
+.tuhin-area img{
+    width: 200px;
+    height: 210px;
+    border-radius: 10%;
+    border: 3px solid #28a745;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.dr-info,
+.dr-info2{
+    line-height: 1.4;
+}
+
+/* Product Section */
+.demo{
+    margin-top: 40px;
+    text-align: center;
+    color: green;
+}
+
+.product{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background: #fff;
+    width: 280px;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.product-card img{
+    width: 100%;
+}
+
+.price {
+    color: #27ae60;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.see-more {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.see-more a {
+    text-decoration: none;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .logo-area {
+        justify-content: center; /* mobile center */
+    }
+
+    .logo-area img {
+        max-width: 120px;
+    }
+}
